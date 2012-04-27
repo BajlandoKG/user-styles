@@ -5,7 +5,7 @@ Styles posted on userstyles.org are automatically categorized based on the code 
 [CSS namespaces](http://www.w3.org/TR/css3-namespace/) are a standard CSS feature that help to remove ambiguity between XML tags with the same tag name but under the same namespace. In reality, declaring CSS namespaces is rarely needed, but is helpful to include to better inform userstyles.org of what kind of style you've written. The most commonly used namespace would be to set XUL as the default namespace. Adding this to the top of the style would do so:
 
 ```css
-@namespace xul url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 ```
 
 The rules userstyles.org uses for determining a category are as follows:
