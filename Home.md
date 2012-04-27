@@ -1,3 +1,5 @@
+For general help with Stylish, see [the help docs on userstyles.org](http://userstyles.org/help).
+
 ## Development topics
 
 * [Applying styles to specific sites](Applying-styles-to-specific-sites)
