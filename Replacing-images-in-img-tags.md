@@ -1,4 +1,4 @@
-While replacing background images is easy with CSS, replacing images created with <img> tags is not. You need to do the following trick to switch <img> tag images.
+While replacing background images is easy with CSS, replacing images created with \<img\> tags is not. You need to do the following trick to switch \<img\> tag images.
 
 ```css
 #your-selector-here {
