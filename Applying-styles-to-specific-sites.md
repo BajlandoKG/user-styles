@@ -54,7 +54,7 @@ would not apply to http://example.com, https://www.example.com or http://www.exa
 
 [Regular expressions](http://www.regular-expressions.info/) offer a powerful way to specify which URLs the style should apply to. Regular expressions are not recommended when the url, url-prefix, and domain rule types will do; they are more difficult to understand and edit, and are more difficult for the userstyles.org software to automatically categorize.
 
-Regular expressions must be escaped using CSS syntax. For example, a . (period) matches any character in regular expressions. To match a literal period, you would first need to escape it using regular expression rules (to \.), then escape that string using CSS rules (to \\.).
+Regular expressions must be escaped using CSS syntax. For example, a . (period) matches any character in regular expressions. To match a literal period, you would first need to escape it using regular expression rules (to \\.), then escape that string using CSS rules (to \\\\.).
 
 The regular expression you write must match the entirety of the URL. This means that using ^ and $ (to match the beginning and end of the string) are unnecessary. Also, using:
 ```css
