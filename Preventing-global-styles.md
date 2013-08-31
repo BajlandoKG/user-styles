@@ -15,6 +15,8 @@ If you create your style in Firefox, you can use @-moz-document rules to specify
 }
 ```
 
+Ensure your code is followed by the closing bracket for the @-moz-document block, as shown above.
+
 For more detailed usage of @-moz-document rules, see [Applying styles to specific sites](https://github.com/JasonBarnabe/stylish/wiki/Applying-styles-to-specific-sites).
 
 
