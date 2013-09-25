@@ -9,5 +9,6 @@ For those with some knowledge of CSS, here are some articles specifically about 
 * [Embedding images in styles](https://github.com/JasonBarnabe/stylish/wiki/Embedding-images-in-styles)
 * [Ensuring proper categorization on userstyles.org](https://github.com/JasonBarnabe/stylish/wiki/Ensuring-proper-categorization-on-userstyles.org)
 * [Overwriting page styles](https://github.com/JasonBarnabe/stylish/wiki/Overwriting-page-styles)
+* [Preventing global styles](https://github.com/JasonBarnabe/stylish/wiki/Preventing-global-styles)
 * [Replacing images in img tags](https://github.com/JasonBarnabe/stylish/wiki/Replacing-images-in-img-tags)
 * [Selecting specific elements on a page](https://github.com/JasonBarnabe/stylish/wiki/Selecting-specific-elements-on-a-page)
