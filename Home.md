@@ -5,6 +5,7 @@ Writing a user style from scratch requires a working knowledge of CSS. There are
 For those with some knowledge of CSS, here are some articles specifically about writing CSS for user styles:
 
 * [Applying styles to specific sites](https://github.com/JasonBarnabe/stylish/wiki/Applying-styles-to-specific-sites)
+* [CSS namespaces](https://github.com/JasonBarnabe/stylish/wiki/CSS-namespaces)
 * [Cross browser compatibility](https://github.com/JasonBarnabe/stylish/wiki/Cross-browser-compatibility)
 * [Embedding images in styles](https://github.com/JasonBarnabe/stylish/wiki/Embedding-images-in-styles)
 * [Ensuring proper categorization on userstyles.org](https://github.com/JasonBarnabe/stylish/wiki/Ensuring-proper-categorization-on-userstyles.org)
