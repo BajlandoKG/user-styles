@@ -1,12 +1,4 @@
-Styles posted on userstyles.org are automatically categorized based on the code they contain. The main checks are for @-moz-document rules and default namespaces.
-
-@-moz-document rules specify which URLs a section of code applies to. See [Applying styles to specific sites](Applying styles to specific sites) for more information.
-
-[CSS namespaces](http://www.w3.org/TR/css3-namespace/) are a standard CSS feature that help to remove ambiguity between XML tags with the same tag name but under the same namespace. In reality, declaring CSS namespaces is rarely needed, but is helpful to include to better inform userstyles.org of what kind of style you've written. The most commonly used namespace would be to set XUL as the default namespace. Adding this to the top of the style would do so:
-
-```css
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-```
+Styles posted on userstyles.org are automatically categorized based on the code they contain. The main factors are the [@-moz-document rules](https://github.com/JasonBarnabe/stylish/wiki/Applying-styles-to-specific-sites), the [@namespace rules](https://github.com/JasonBarnabe/stylish/wiki/CSS-namespaces), and the example URL set.
 
 The rules userstyles.org uses for determining a category are as follows:
 
@@ -16,8 +8,8 @@ The rules userstyles.org uses for determining a category are as follows:
 4. If any of the @-moz-document rules are of "url-prefix" type and apply to the entirety of the http, https, ftp, file, data, or chm:file protocols, the style is a "global" style.
 5. Otherwise, the style is a "site" style.
 
-To calculate the subcategory:
+Global styles do not receive a subcategory. For other styles, the site first tries to get an affected URL. The example URL is used for this, assuming it matches any of the @-moz-document rules. If no example URL is set, a value from the @-moz-document rules is used.
 
-* If the category is "site", the first @-moz-document rule's value has is stripped (e.g. "www.example.com" becomes "example") and this is the subcategory. IP addresses are skipped if non-IP address values are present.
-* If the category is "app", the URL is checked against a map of common URL prefixes and the resulting value is the subcategory. If the URL does not match any common prefixes, the subcategory is "browser".
-* Global styles do not have a subcategory.
+For site styles, the domain of affected URL gets stripped (e.g. a URL of http://www.example.com becomes "example") and that is the subcategory.
+
+For app styles, the URL is checked against a map of common URL prefixes and the resulting value is the subcategory. If the URL does not match any common prefixes, the subcategory is "browser".
