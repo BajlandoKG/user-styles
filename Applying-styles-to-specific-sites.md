@@ -81,3 +81,13 @@ An example of matching all sites with a certain exception:
 	*/
 }
 ```
+
+An example of matching all except a specific section of a site:
+```css
+@-moz-document regexp('http://www\\\\.example\\\\.com/(?!members).*') {
+	/*
+		the code in here applies to all URLs on http://www.example.com, except
+		those under http://www.example.com/members
+	*/
+}
+```
