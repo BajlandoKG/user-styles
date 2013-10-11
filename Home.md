@@ -13,3 +13,4 @@ For those with some knowledge of CSS, here are some articles specifically about 
 * [Preventing global styles](https://github.com/JasonBarnabe/stylish/wiki/Preventing-global-styles)
 * [Replacing images in img tags](https://github.com/JasonBarnabe/stylish/wiki/Replacing-images-in-img-tags)
 * [Selecting specific elements on a page](https://github.com/JasonBarnabe/stylish/wiki/Selecting-specific-elements-on-a-page)
+* [Valid @-moz-document rules](https://github.com/JasonBarnabe/stylish/wiki/Valid-@-moz-document-rules)
