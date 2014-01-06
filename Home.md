@@ -1,4 +1,4 @@
-For general help with Stylish, see [the help docs on userstyles.org](/userstyles.org/help).
+For general help with Stylish, see [the help docs on userstyles.org](http://userstyles.org/help).
 
 Writing a user style from scratch requires a working knowledge of CSS. There are many CSS tutorials online, most of which are better than anything I could write. For those have limited knowledge of CSS, my recommendation would be to take an existing style that does something similar to what you want, and attempt to understand and modify it to suit your needs.
 
@@ -13,4 +13,4 @@ For those with some knowledge of CSS, here are some articles specifically about 
 * [Preventing global styles](https://github.com/JasonBarnabe/stylish/wiki/Preventing-global-styles)
 * [Replacing images in img tags](https://github.com/JasonBarnabe/stylish/wiki/Replacing-images-in-img-tags)
 * [Selecting specific elements on a page](https://github.com/JasonBarnabe/stylish/wiki/Selecting-specific-elements-on-a-page)
-* [Valid @-moz-document rules](https://github.com/JasonBarnabe/stylish/wiki/Valid-@-moz-document-rules)http:/
+* [Valid @-moz-document rules](https://github.com/JasonBarnabe/stylish/wiki/Valid-@-moz-document-rules)
