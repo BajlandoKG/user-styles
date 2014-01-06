@@ -46,6 +46,6 @@ With Stylish for Firefox, you can include
 /* AGENT_SHEET */
 ```
 
-anywhere in your style to make it be applied as an agent sheet. This is intended to allow your style to override Firefox internals like scrollbars, which is only possible in agent sheet mode. 
+anywhere in your style to make it be applied as an agent sheet. This is intended to allow your style to override Firefox internals like scrollbars for app style and form elements like checkbox and radio button for site style which are only possible in agent sheet mode.
 
 **This comment only has an effect in Stylish for Firefox. You can cause Firefox to crash with agent sheets. Therefore, it's recommended to only use this mode when you need it.**
