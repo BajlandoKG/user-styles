@@ -40,12 +40,6 @@ In the event of equal specificity, the latest defined (furthest down the page) s
 
 ## AGENT_SHEET
 
-With Stylish for Firefox, you can include
-
-```css
-/* AGENT_SHEET */
-```
-
-anywhere in your style to make it be applied as an agent sheet. This is intended to allow your style to override Firefox internals like scrollbars and certain properties of form elements, which is only possible in agent sheet mode.
+With Stylish for Firefox, you can include `/* AGENT_SHEET */` anywhere in your style to make it be applied as an agent sheet. This is intended to allow you to style the [anonymous content](https://developer.mozilla.org/en-US/docs/XBL/XBL_1.0_Reference/Anonymous_Content) of web pages, for example scrollbars and the constituent parts of controls like `<input type="file">`. You do not need to activate this mode to style anonymous content of XUL.
 
 **This comment only has an effect in Stylish for Firefox. You can cause Firefox to crash with agent sheets. Therefore, it's recommended to only use this mode when you need it.**
