@@ -64,7 +64,7 @@ would not match http://www.example.com (or anything, for that matter).
 
 An example of wildcarding in the middle of a URL:
 ```css
-@-moz-document regexp('http://www\\\\.example\\\\.(com|de)/images/.*') {
+@-moz-document regexp('http://www\\.example\\.(com|de)/images/.*') {
 	/* 
 		the code in here applies to URLs that start with http://www.example.com/images/
 		and http://www.example.de/images/
@@ -74,7 +74,7 @@ An example of wildcarding in the middle of a URL:
 
 An example of matching all sites with a certain exception:
 ```css
-@-moz-document regexp('(?!http://www\\\\.example\\\\.com).*') {
+@-moz-document regexp('(?!http://www\\.example\\.com).*') {
 	/*
 		the code in here applies to all URLs except those that start with 
 		http://www.example.com
@@ -84,7 +84,7 @@ An example of matching all sites with a certain exception:
 
 An example of matching all except a specific section of a site:
 ```css
-@-moz-document regexp('http://www\\\\.example\\\\.com/(?!members).*') {
+@-moz-document regexp('http://www\\.example\\.com/(?!members).*') {
 	/*
 		the code in here applies to all URLs on http://www.example.com, except
 		those under http://www.example.com/members
