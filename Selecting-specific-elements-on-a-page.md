@@ -50,4 +50,8 @@ If we wanted to hide the floating aside, a type selector with a combinator (e.g.
 }
 ```
 
+### Tools
+
 In Firefox, Stylish installs a selector tool to [DOM Inspector](https://addons.mozilla.org/en-US/firefox/addon/dom-inspector-6622/). Right clicking a node in the left side view provides a Copy Selector menu with suggestions of selectors to use.
+
+Another tool for automatically generating selectors is the [Selector Gadget](http://selectorgadget.com/) bookmarklet. If you click on the elements you want to select and then on elements you want to exclude it will try to generate the simplest selectors for that.
