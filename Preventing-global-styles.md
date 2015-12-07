@@ -2,7 +2,7 @@ Global styles are styles that will be applied to all sites the user visits. Some
 
 ## Authoring in Chrome or Opera
 
-If you create your style in Chrome or Opera, you can use the "Applies to" controls to limit what site your style is active on. To retain this information when posting to userstyles.org, click the "Export" button under the "Mozilla Format" heading and use the resulting code as your CSS. Chrome and Opera users will have this code translated back into the appropriate format when they install your style.
+If you create your style in Chrome or Opera, you can use the "Applies to" controls to limit what site your style is active on. To retain this information when posting to userstyles.org, click the "Export" button, under the "Mozilla Format" heading, and use the resulting code as your CSS. Chrome and Opera users will have this code translated back into the appropriate format when they install your style.
 
 
 ## Authoring in Firefox
