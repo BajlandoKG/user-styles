@@ -70,5 +70,5 @@ Regexp rules should be a valid regular expression which will be tested against t
 
 **Valid:**
 ```css
-@-moz-document regexp("http://(www|blog)\\\\.example\\\\.com/.*")
+@-moz-document regexp("http://(www|blog)\\.example\\.com/.*")
 ```
